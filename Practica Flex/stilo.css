@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    height: 300px;
+flex-wrap: wrap;
+flex-direction: column-reverse;
+    /* Con el row sale horizontal
+    Con el column sale apilado*/
+}
+.item{
+    margin: 0 auto;
+    background-color: mediumseagreen;
+    width: 100px;
+    height: 100px;
+}
+
+#caja1{
+ background-color: red;
+}
+#caja2{
+    background-color: yellow;
+}
+#caja3{
+    background-color: blueviolet;
+}
+#caja4{
+    background-color: green;
+}
